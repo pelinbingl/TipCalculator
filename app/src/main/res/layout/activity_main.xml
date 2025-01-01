@@ -17,10 +17,9 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"/>
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    <!-- Bill Amount Field -->
+
     <EditText
         android:id="@+id/billAmountEditText"
         android:layout_width="0dp"
@@ -31,10 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titleText"
-        app:layout_constraintMarginTop="16dp"
         android:padding="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
+        android:layout_marginHorizontal="16dp"/>
 
     <!-- Tip Percentage Field -->
     <EditText
@@ -46,10 +43,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/billAmountEditText"
-        app:layout_constraintMarginTop="16dp"
         android:padding="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
+        android:layout_margin="16dp"/>
 
     <!-- Tip Amount Text -->
     <TextView
